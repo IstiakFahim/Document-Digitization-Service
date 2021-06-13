@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item android:title="My Drive">
+        <menu>
+            <item
+                android:id="@+id/all_files"
+                android:icon="@drawable/ic_all_file"
+                android:title="All Files" />
+            <item
+                android:id="@+id/my_files"
+                android:icon="@drawable/ic_all_file"
+                android:title="My Files" />
+            <item
+                android:id="@+id/upload_files"
+                android:icon="@drawable/ic_all_file"
+                android:title="Upload Files" />
+
+            <item
+                android:id="@+id/recent"
+                android:icon="@drawable/ic_time"
+                android:title="Recent Files" />
+            <item
+                android:id="@+id/stared"
+                android:icon="@drawable/ic_star"
+                android:title="Stared Files " />
+
+            <item
+                android:id="@+id/shared"
+                android:icon="@drawable/ic_share"
+                android:title="Shared Files" />
+            <item
+                android:id="@+id/trash"
+                android:icon="@drawable/ic_trash"
+                android:title="Trash Files" />
+        </menu>
+
+    </item>
+</group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_person"
+                    android:title="View Profile" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Log Out" />
+
+            </menu>
+
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/chatbot"
+                    android:icon="@drawable/ic_chatbot"
+                    android:title="Chat Bot" />
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
